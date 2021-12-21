@@ -1,0 +1,349 @@
+*{
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+.header{
+    width: 100%;
+    background: rgb(19, 18, 18);
+    height: 30px;
+    display: flex;
+    color: aliceblue;
+    position: fixed;
+    margin-top: -30px;
+}
+.press{
+    width: 50%;
+    display: flex;
+    padding-left: 22px;
+    padding-top: 5px;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.lang{
+    width: 50%;
+    padding-top: 5px;
+    margin-left: 800px;
+    cursor: pointer;
+}
+.header2{
+    margin-top: 30px;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    /* position: fixed; */
+}
+.menu{
+    width: 30%;
+    cursor: pointer;
+}
+.menu p{
+    color: black;
+    font-size: 22px;
+    padding-left: 65px;
+    margin-top: 10px;
+}
+.icon{
+    width: 40%;
+}
+.icon img{
+    height: 60px;
+    width: 11%;
+    padding-left: 150px;
+    cursor: pointer;
+}
+.search{
+    width: 30%;
+    display: flex;
+    
+}
+.search img{
+    width: 45px;
+    height: 34px;
+    margin-top: 10px;
+    padding-left: 100px;
+    cursor: pointer;
+}
+.center{
+    
+    width: 100%;
+    height:420px;
+    background-image: url("images/background.webp");
+}
+.content{
+    margin-left: 200px;
+    padding-top: 70px;
+    width: 900px;
+    text-align: center;
+}
+.content h1{
+    
+    color: white;
+    font-size: 45px;
+}
+.content h3{
+    color: white;
+    font-size: 23px;
+}
+.content button{
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+    background: none;
+    color: white;
+    font-size: 15px;
+}
+.current{
+    width: 100%;
+    height: 135px;
+}
+.current h1{
+    font-weight: 100;
+    text-align: center;
+    font-size: 40px;
+    padding-top: 35px;
+    font-family: monospace;
+}
+.details{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: space-between;
+}
+.left{
+    padding-left: 30px;
+    width: 30%;
+}
+.middle{
+ width: 30%;
+}
+.right{
+    width: 30%;
+    padding-right: 25px;
+}
+.image{
+    height: 50%;
+}
+.text{
+    height: 50%;
+}
+.image img{
+    width: 400px;
+    height:100%;
+    cursor: pointer;  
+}
+.image img:hover{
+    transform: scale(1.2);
+}
+.text h4{
+    font-weight: 100;
+    font-family: monospace;
+    color: gray;
+}
+.text h2{
+    font-weight: 300;
+    font-size: 30px;
+    font-family: monospace;
+}
+.text p{
+    font-family: monospace;
+    font-weight: 100;
+    font-size: 16px;
+}
+.career{
+    margin-top: 80px;
+    width: 100%;
+    height: 55vh;
+    display: flex;
+}
+.foto{
+    width: 60%;
+}
+.foto img{
+    width: 90%;
+    height: 100%;
+    margin-left: 20px;
+}
+.text2{
+    width: 40%;
+    margin-top: 30px;
+    margin-right: 20px;
+}
+
+.text2 p{
+    font-family: monospace;
+    font-weight: 100;
+    font-size: 19px;
+}
+.text2 button{
+    width: 200px;
+    height: 60px;
+    background: none;
+    cursor: pointer;
+}
+.news{
+    width: 100%;
+    margin-top: 20px;
+    height: 100px;
+    text-align: center;
+}
+.news h2{
+font-family: -webkit-pictograph;
+font-size: 50px;
+font-weight: 200;
+}
+.news-images{
+    width: 100%;
+    height: 65vh;
+    display: flex;
+    justify-content: space-between;
+}
+.president{
+    width: 30%;
+    margin-left: 50px;
+}
+.ceo{
+    width: 30%;
+}
+.sociaty{
+    width: 30%;
+    margin-right: 50px;
+}
+.press-image{
+    height: 50%;
+    justify-content: space-between;
+}
+.press-image img{
+    width: 100%;
+    height: 100%;
+}
+.press-image img:hover{
+    transform: scale(1.1);
+}
+.press-news{
+    height: 50%;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.press-news h4{
+    font-weight: 100;
+    font-size: 14px;
+
+}
+.press-news h2{
+font-size: 26px;
+font-family: -webkit-pictograph;
+font-weight: 200;
+}
+.press-news p{
+    font-size: 14px;
+}
+.media-center{
+    width: 100%;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.media-center button{
+    background: black;
+    color: white;
+    font-size: 15px;
+    width: 240px;
+    height: 50px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.models{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+}
+.audi{
+    width: 60%;
+    height: 60vh;
+    
+}
+.audi img{
+    width: 90%;
+    height: 90%;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.all{
+    width: 40%;
+    margin-top: 50px;
+    margin-right: 10px;
+}
+.all h2{
+    font-weight: 300;
+    font-family: -webkit-pictograph;
+}
+.all p{
+    font-size: 20px;
+    font-weight: 100;
+    font-family: -webkit-pictograph;
+}
+.all button{
+    align-items: center;
+    justify-content: center;
+    width: 240px;
+    height: 50px;
+    font-family: -webkit-pictograph;
+}
+.footer{
+    margin-top: 50px;
+    width: 100%;
+    height: 50vh;
+    background: black;
+    color: white;
+    display: flex;
+    font-family: -webkit-pictograph;
+}
+
+.topic{
+    width: 25%;
+    align-items: center;
+    justify-content: center;
+    line-height: 40px;
+    margin-top: 15px;
+    padding-left: 20px;
+}
+.topic h2, .audi-Ag h2, .service h2{
+    margin-left: 30px;
+}
+.topic li a, .audi-Ag li a, .service li a
+{
+    color: white;
+}
+a{
+    text-decoration: none;
+}
+.audi-Ag{
+    width: 25%;
+    align-items: center;
+    justify-content: center;
+    line-height: 40px;
+    margin-left: 30px;
+    margin-top: 15px;
+}
+.service{
+    width: 25%;
+    align-items: center;
+    justify-content: center;
+    line-height: 40px;
+    margin-top: 15px;
+}
+.icons{
+    width: 25%;
+    display: flex;
+    margin-top: 30px;
+    align-items: center;
+    justify-content: center;
+    
+}
+.icons img{ 
+    width: 16%;
+    height: 40px;
+    color: white;
+}
